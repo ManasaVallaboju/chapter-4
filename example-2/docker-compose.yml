@@ -11,8 +11,8 @@ services:
      - "4000:80"
     environment:
       - PORT=80
-      - STORAGE_ACCOUNT_NAME=<insert your Azure storage account name here>
-      - STORAGE_ACCESS_KEY=<insert your Azure storage account access key here>
+      - STORAGE_ACCOUNT_NAME=sit7225
+      - STORAGE_ACCESS_KEY=RNBZDw17Ri2yTftZg8GKOS8zeAtS8TOebEhGNpNMLXTePEbOWKRCOZK9no+aT/4HDl5B+hHLrsf7+AStvSCCQQ==
     restart: "no"
 
   video-streaming:
